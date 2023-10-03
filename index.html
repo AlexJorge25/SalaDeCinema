@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cinema</title>
+</head>
+<body>
+    <!--criar uma página que represente uma sala de cinema. O usuário deve informar quantas cadeiras deseja ter na sala. Deve ser criada a quantidade de cadeiras informadas, estilizadas na cor verde, ou seja representando cadeiras disponíveis. Ao selecionar uma cadeira, mudar o estilo para vermelho. Listar números de cadeiras disponíveis e números de cadeiras ocupadas.-->
+    <header class="header">
+        <div>
+            <p>Numero de cadeiras ocupadas:<span id="ocupadas"></span></p>
+        </div>
+        <div>
+            <label for="numeroCadeiras">Cadeiras</label>
+            <input type="number" min="0" max="100" placeholder="cadeiras" id="numeroCadeiras">
+            <button class="enviar" id="enviar">Enviar</button>
+        </div>
+        <div>
+            <p>Numero de cadeiras disponiveis:<span id="disponiveis"></span></p>
+        </div>
+    </header>
+    <section id="salaDoCinema" class="salaDoCinema">
+        <!--Cadeira/botoes AQUI!-->
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

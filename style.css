@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(51, 41, 41);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 50px;
+    display: flex;
+}
+.header label {
+    color: white;
+    margin-right: 5px;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+.header p {
+    color: white;
+    margin-right: 5px;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+.header span#ocupadas {
+    color: rgb(231, 0, 0);
+    margin-right: 5px;
+    font-family: monospace;
+    font-size: 1.5em;
+    width: 20px;
+}
+.header span#disponiveis {
+    color: rgb(73, 255, 1);
+    margin-right: 5px;
+    font-family: monospace;
+    font-size: 1.5em;
+    width: 20px;
+}
+.header input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    outline: none;
+    
+}
+.enviar {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    font-family: monospace;
+    font-size: 1em;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+}
+.enviar:hover{
+    border: 2px solid cyan;
+}
+.header input:hover {
+    border: 2px solid cyan;
+}
+.salaDoCinema {
+    padding: 50px;
+    margin: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cadeiraAtiva {
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    margin: 5px;
+    background-color: rgb(43, 187, 30);
+}
+.cadeiraOcupada {
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    margin: 5px;
+    background-color: rgb(180, 14, 14);
+}
